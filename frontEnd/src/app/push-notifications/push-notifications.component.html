@@ -1,0 +1,21 @@
+<form>
+  <div>
+    Please enter the bottle number:
+    <input type="text" name="bottleNumber" /><br /><br />
+    <button (click)="openIssuesList()">Submit</button>
+  </div>
+
+  <div *ngIf="showListOfIssuesList">
+    <div class="list-group-item" *ngFor="let issue of listOfIssues">
+      <input type="radio"
+        [(ngModel)]="selectedIssue"
+        name="list_name"
+        value="{{ issue }}"
+        />
+      {{ issue }}
+    </div>
+    <button (click)="getSelectedIssue()">Report Issue</button>
+  </div>
+</form>
+
+<!-- <button (click)="subscribeToNotifications()">Subscribe to push-notifications</button> -->
