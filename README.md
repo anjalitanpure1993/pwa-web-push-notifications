@@ -12,3 +12,12 @@ Angular(7.0) + PWA
 
 # Back-End Server:
 Node.js
+
+# How to run ?
+Clone the both repo's - front end and back end
+Open two terminals 1 for front end and one for back end.
+- In first terminal (Front_End)
+Go to repo, do npm install and run ng serve command.
+Run application locally using 4200 port - http://localhost:4200
+- In second terminal (Back_End)
+Go to repo, run npm install and run node server
