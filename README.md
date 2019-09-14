@@ -7,8 +7,8 @@ When configured, a ServiceWorker will be activated by an incoming push notificat
 It can then fetch updated data and display a notification to the user.
 In this small POC, I have created small example of how to add Push-Notifications in simple Angular PWA Application.
 
-#Front-End
+# Front-End:
 Angular(7.0) + PWA
 
-#Back-End Server
+# Back-End Server:
 Node.js
